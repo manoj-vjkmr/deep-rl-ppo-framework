@@ -1,11 +1,5 @@
 # Deep Reinforcement Learning with Recurrent Proximal Policy Optimization (PPO)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red.svg)
-![Reinforcement Learning](https://img.shields.io/badge/Reinforcement-Learning-green.svg)
-![PPO](https://img.shields.io/badge/Algorithm-PPO-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
 ## Overview
 
 This project implements a **Deep Reinforcement Learning framework** based on **Proximal Policy Optimization (PPO)** for training an autonomous agent to play *Super Mario Bros*. Instead of relying on existing RL libraries such as Stable-Baselines or RLlib, the core reinforcement learning pipeline—including rollout storage, Generalized Advantage Estimation (GAE), PPO optimization, recurrent policy learning, and parallel environment execution—has been implemented in PyTorch.
